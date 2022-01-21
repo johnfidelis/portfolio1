@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%
+}
+.image{
+    margin-top: 50px;
+    width: 270px;
+    height: 270px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+
+} 
+
+/* NAVBAR */
+.navbar{
+    background-color: blue;
+    color: red;
+}
+.navbar-brand{
+    color:red;
+}
+.nav-link{
+    color: white;
+    display: flex;
+}
+#grouping{
+    display: flex;
+}
+
+/* END */
+
+h1{
+text-align: center;
+text-transform: capitalize;
+margin-top: 70px;
+}
+.ptag{
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 15px;
+}
+.shopnow{
+    text-align: center;
+    /* padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 7%;
+    padding-right: 7%; */
+    background-color: white ;
+    color: black;
+    font-weight: 600;
+    width: 10rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+.shopnowcon{
+    margin-left: 82px;
+    box-shadow: 0px 10px 10px rgba(165, 42, 42, 0.678)
+}
+.shopnow:hover{
+    background-color: blue;
+}
